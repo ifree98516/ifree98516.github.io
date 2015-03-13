@@ -1,3 +1,31 @@
+
+<html>
+  <head>
+    <title>Memory Game</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+    <script type="text/javascript" src="application.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Memory Game</h1>
+    </header>
+    <div id="card_holder">
+      <!-- use Javascript / JQuery to create cards with the class 'card' here-->
+    </div>
+    <p id="clear">Click to Clear</p>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
 # ifree98516.github.io
 $(document).ready(function(){
   var card_array = ["fish", "fish", "turtle", "turtle", "pig", "pig", "dog", "dog", "cat", "cat", "snake", "snake", "bird", "bird", "goat", "goat", "hamster", "hamster", "dragon", "dragon"];
@@ -10,7 +38,9 @@ function shuffle(array) {
         index = Math.floor(Math.random() * counter);
 
         // Decrease counter by 1
-        counter--;
+        counter
+        
+        
 
         // And swap the last element with it
         temp = array[counter];
