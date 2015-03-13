@@ -1,4 +1,6 @@
 
+// THis section simply draws and sets the cards on the stage to be played with.
+
 <html>
   <head>
     <title>Memory Game</title>
@@ -23,7 +25,7 @@
 
 
 
-
+// This section is the script for the Javascriopt, which gives instructions to the program to shuffle the cards and set them to disappear when two clicks dont present the same word.
 
 
 # ifree98516.github.io
