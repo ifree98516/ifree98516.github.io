@@ -1,0 +1,30 @@
+button{
+  text-allign: center;
+}
+input{
+  maargin-right:auto;
+  margin-left: auto;
+  display:block;
+}
+div{
+  width:100%
+}
+div{
+  text-allign:center;
+}
+.button{
+  display:inline-block;padding:left;
+}
+form{
+  text-align:center;
+}
+
+ul {
+  width: 100%;
+  display: block;
+}
+
+h1{
+  text-align: center;
+  
+}
